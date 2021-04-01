@@ -4,6 +4,10 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "@coopdigital/css-foundations": "^2.0.5",
     "@types/jest": "26.0.15",
     "@types/node": "12.19.6",
     "@types/react": "^16.14.1",
@@ -37,10 +41,6 @@
     ]
   },
   "devDependencies": {
-    "@coopdigital/css-foundations": "^2.0.5",
-    "@fortawesome/fontawesome-svg-core": "^1.2.25",
-    "@fortawesome/free-solid-svg-icons": "^5.11.2",
-    "@fortawesome/react-fontawesome": "^0.1.7",
     "@typescript-eslint/eslint-plugin": "^2.9.0",
     "@typescript-eslint/parser": "^2.9.0",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
