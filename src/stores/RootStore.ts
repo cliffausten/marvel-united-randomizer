@@ -1,14 +1,16 @@
 import StateStore from './StateStore';
-import ExampleStore from './ExampleStore';
-import ExampleApi from 'apis/ExampleApi';
+import ConfigStore from './ConfigStore';
+import GameStore from './GameStore';
 
 export default class RootStore {
   stateStore: StateStore;
-  exampleStore: ExampleStore;
+  configStore: ConfigStore;
+  gameStore: GameStore;
 
   constructor() {
     this.stateStore = new StateStore(this);
-    this.exampleStore = new ExampleStore(this, new ExampleApi());
+    this.configStore = new ConfigStore(this);
+    this.gameStore = new GameStore(this);
   }
 }
 
