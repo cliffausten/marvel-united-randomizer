@@ -7,3 +7,7 @@
 @value lightyellow: #fff1b2;
 @value green: #4F820D;
 @value lightgreen:#e4f9c7;
+
+body {
+  margin: 0px;
+}
