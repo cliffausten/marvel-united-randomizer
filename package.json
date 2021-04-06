@@ -1,22 +1,17 @@
 {
-  "name": "coop_react_boilerplate",
+  "name": "marvel_united_randomizer",
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
   "dependencies": {
+    "@coopdigital/css-foundations": "^2.0.5",
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.7",
-    "@coopdigital/css-foundations": "^2.0.5",
     "@types/jest": "26.0.15",
     "@types/node": "12.19.6",
     "@types/react": "^16.14.1",
     "@types/react-dom": "^16.9.10",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "^4.0.1",
-    "react-select": "^3.0.8",
-    "typescript": "^4.1.2",
     "@typescript-eslint/eslint-plugin": "^2.9.0",
     "@typescript-eslint/parser": "^2.9.0",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
@@ -31,7 +26,12 @@
     "mobx": "^5.15.4",
     "mobx-react": "^6.1.4",
     "node-fetch": "^2.6.1",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1",
+    "react-select": "^3.0.8",
+    "typescript": "^4.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
